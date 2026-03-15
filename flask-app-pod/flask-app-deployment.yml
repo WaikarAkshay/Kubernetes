@@ -9,7 +9,7 @@ spec:
     replicas: 7
     selector:
         matchLabels:
-            app:flask-app-label
+            app: flask-app-label
     template:
         metadata:
             labels:
