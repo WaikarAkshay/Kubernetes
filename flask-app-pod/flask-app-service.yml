@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+    name: flask-app-service
+    namespace: flask-app-ns
+spec:
+    selectors:
+        lables:
+            app: flask-app-label
+        ports:
+            - port: 80
+              targetPort: 8081
+              protocol: TCP
