@@ -4,7 +4,7 @@ metadata:
     name: flask-app-service
     namespace: flask-app-ns
 spec:
-    selectors:
+    selector:
         lables:
             app: flask-app-label
         ports:
