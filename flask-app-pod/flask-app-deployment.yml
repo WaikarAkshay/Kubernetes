@@ -16,10 +16,10 @@ spec:
                 app: flask-app-label
         spec:
             containers: 
-                name: falsk-app
-                image: akshaywaikar/flask-app-image
-                ports:
-                - containerPort: 5000
+            - name: falsk-app
+              image: akshaywaikar/flask-app-image
+              ports:
+              - containerPort: 5000
 
 
               
