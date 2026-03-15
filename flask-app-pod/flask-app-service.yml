@@ -5,9 +5,8 @@ metadata:
     namespace: flask-app-ns
 spec:
     selector:
-        lables:
-            app: flask-app-label
-        ports:
-            - port: 80
-              targetPort: 8081
-              protocol: TCP
+        app: flask-app-label
+    ports:
+        - port: 80
+          targetPort: 8081
+          protocol: TCP
