@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+    name: flask-app-pod
+spec:
+    containers:
+    - name: flask-app
+      image: akshaywaikar/flask-app-image
+      ports:
+      - containerPort: 80
