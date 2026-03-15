@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata: 
     name: flask-app-deplyment
-    Namespace: flask-app-ns
+    namespace: flask-app-ns
     labels:
         app:flask-app-label
 spec:
