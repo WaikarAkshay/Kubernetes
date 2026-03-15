@@ -4,7 +4,7 @@ metadata:
     name: flask-app-deplyment
     namespace: flask-app-ns
     labels:
-        app:flask-app-label
+        app: flask-app-label
 spec:
     replicas: 7
     selector:
