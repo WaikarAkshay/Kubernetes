@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/WaikarAkshay/Kubernetes.git    # Replace it with your forked repo
-    targetRevision: main
+    targetRevision: master
     path: flask-app-pod
   destination:
     server: https://172.31.35.97:33893   # Replace with your Cluster Url, To get run: `argocd cluster list`
